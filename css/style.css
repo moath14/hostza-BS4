@@ -1,0 +1,499 @@
+
+
+/* start navbar hostza */
+
+nav .navbar-hostza{
+    margin: 0 auto;
+}
+
+nav .navbar-hostza .nav-item .nav-link,
+nav .user .fa-user,
+nav .user span{
+    color: #FFF !important;
+    font-weight: bold;
+}
+
+nav .user span.dist{
+    margin-right: 20px;
+}
+
+nav .user button{
+    border: 2px solid #00D363;
+    padding: 10px 15px;
+}
+
+nav .navbar-hostza .nav-item{
+    padding: 0 5px;
+}
+
+
+nav .navbar-hostza .nav-item:hover{
+    border-bottom: 2px solid #00D363;
+
+}
+
+.bg-header{
+    background-image: url('../images/banner.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-header .header-info .information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+}
+
+.bg-header .header-info .information p{
+    color: #00D363;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 18px;    
+}
+
+.bg-header .header-info .information h1{
+    color: #FFF;
+    font-size: 60px;
+}
+
+.bg-header .header-info .information form input{
+    outline: none;
+    padding: 15px 0;
+    width: 100%;
+    text-indent: 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.bg-header .header-info .information form button{
+    background-color: #671380;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 50px;
+    color: #FFF;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;    
+}
+
+.bg-header .header-info .information form{
+    display: flex;
+    width: 55%;   
+    margin-top: 50px; 
+}
+
+
+/* end navbar hostza */
+
+
+/* start host plan  */
+
+.host-plan,
+.features,
+.support,
+.ask-question,
+.latest-news,
+.launch
+{
+    padding: 70px 0;
+}
+
+
+
+
+
+
+.host-plan h3{
+    color: #671380;
+    font-size: 45px;
+    margin-bottom: 25px;    
+} 
+
+.host-plan p{
+    color: #919191;
+}
+
+.host-plan .card {
+    margin-top: 60px;
+}
+
+.host-plan .card .fa-share-square{
+    color: #0381F5;
+}
+
+.host-plan .card  .fa-globe-asia{
+    color: #886CFE
+}
+
+.host-plan .card .fa-wordpress-simple{
+    color: #FF87A3
+}
+
+.host-plan .card .fa-server{
+    color: #F3C30F  
+}
+.host-plan .card .fa-share-square,
+.host-plan .card  .fa-globe-asia,
+.host-plan .card .fa-wordpress-simple,
+.host-plan .card .fa-server{
+    font-size: 60px;
+    padding: 40px 0 20px 20px;
+    
+}
+
+.host-plan .card .card-body h5{
+    font-weight: bold;
+    color: #671380;
+}
+
+.host-plan .card .card-body p{
+    margin: 25px 0;
+}
+
+.host-plan .card .card-body p span{
+    font-size: 25px;
+    font-weight: bold;
+    color: #671380;
+}
+
+.host-plan .card .card-body button{
+    border: 2px solid #00D363;
+    padding: 10px 25px;
+    font-weight: 700;
+}
+/* end host plan  */
+
+
+/* start features */
+
+
+
+.features .feat-tabs{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.features .feat-tabs h3{
+    color: #671380;
+}
+
+.features .feat-tabs .nav-item{
+    color: #919191;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: none;
+    border-color: none;
+}
+
+.features .feat-tabs .nav-tabs .nav-link{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.features .feat-tabs .nav-item.active{
+    color: #671380;
+    border-bottom: 2px solid #00D363;
+    font-weight: bold;    
+}
+
+.features .feat-tabs .nav-item:hover{
+    color: #671380;
+    border-bottom: 2px solid #00D363;
+    font-weight: bold;
+    
+}
+
+.features .tab-content{
+    margin-top: 30px;    
+}
+
+.features .icon{
+
+
+    margin-right: 20px; 
+    text-align: center;   
+}
+
+.features .icon .fa-server,
+.features .icon .fa-shield-alt,
+.features .icon .fa-thumbs-up,
+.features .icon .fa-lock{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #EFF7FF;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.features .icon .fa-server{
+    color: #0381F5;    
+}
+.features .icon .fa-shield-alt{
+    color: #390756;
+}
+
+.features .icon .fa-thumbs-up{
+    color: #FF87A3;
+}
+
+.features .icon .fa-lock{
+    color: #F3C30F;
+}
+
+.features .tab-pane .flex-icon{
+    display: flex;
+    margin-top: 60px;
+}
+
+.features .info-icon p{
+    color: #919191;
+}
+
+/* end features */
+
+
+/* start support */
+.support{
+    background-image: url('../images/support_bg.png') ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    /* height: 700px; */
+}
+
+.support .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.support .info-support{
+    padding: 50px 0;
+}
+
+.support .info-support p{
+    margin: 30px 0;
+}
+
+.support .info-support > span{
+    color: #00D363;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 15px;
+
+}
+.support button{
+    border: 2px solid #00D363;
+    padding: 10px 25px;
+    font-weight: 700;
+    margin-bottom: 13px !important;
+}
+
+.support h1,
+.support p{
+    color: #FFF;
+}
+
+
+
+.ask-question h1,
+.ask-question span{
+    color: #2E054B;
+    font-weight: bold;
+}
+.ask-question h1{
+    margin-bottom: 35px;
+}
+
+.ask-question span{
+    font-size: 20px;
+}
+.ask-question .fa-question-circle{
+    color: #00D363;
+    font-size: 20px;
+    padding: 10px 15px 10px 0px;
+}
+
+.ask-question .alert-dark{
+    background-color: #FFF;
+}
+/* end support */
+
+/* start latest news */
+.latest-news .latest-info{
+    margin: 60px 0;
+}
+
+.latest-news .latest-info h2{
+    color: #2E054B;  
+    font-size: 40px; 
+}
+
+.latest-news .latest-info p{
+    color: #919191;
+}
+
+.latest-news .card .card-body p span{
+    color: #00D363;
+    font-weight: bold;
+}
+
+.latest-news .card .card-body h4{
+    color: #2E054B;
+}
+
+.latest-news .card .card-body p:last-of-type{
+    color: #919191;
+}
+
+
+
+/* end latest news */
+
+
+/* start lauch */
+
+.launch{
+    background: -webkit-linear-gradient(bottom,
+                 rgba(100, 0, 125,.6), 
+                 rgba(100, 0, 125,.6), 
+                 rgba(69, 0, 96,.6) , 
+                 rgba(48, 0, 77,.6) , 
+                 rgba(48, 0, 77,.6)),
+                url('../images/launch.png');
+    height: 600px;
+
+}
+
+
+.launch .info-launch h2,
+.launch .info-launch p{
+    color: #FFF;
+}
+
+.launch .info-launch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;    
+}
+
+.launch .btn-test button{
+    border: 2px solid #00D363;
+    font-weight: 600;
+}
+
+.launch .btn-test button:hover{
+    background-color: #00D363;
+    color: #FFF;
+}
+
+/* end lauch */
+
+
+/* start footer url */
+
+.footer-url{
+    background-color: #2E054B;
+    padding: 150px 0;
+}
+
+.footer-url .footer-heading{
+    color: #FFF;
+}
+
+.footer-url p{
+    color: #BABABA;
+}
+
+.footer-url .img{
+    margin-bottom: 40px;
+}
+
+.footer-url .footer-url-icon{
+    margin-top: 40px;
+}
+.footer-url .footer-url-icon i{
+    padding-right: 20px;
+    
+}
+
+
+
+.footer-url .footer-url-icon .fa-facebook-square,
+.footer-url .footer-url-icon .fa-twitter,
+.footer-url .footer-url-icon .fa-instagram{
+    font-size: 25px;    
+}
+
+.footer-url .link-footer{
+    margin-top: 50px;
+}
+
+.footer-url .link-footer form{
+    display: flex;
+}
+
+.footer-url .link-footer form input{
+    outline: none;
+    text-indent: 10px;
+    padding: 10px 0;
+    width: 70%;
+    background: #FFF;
+    border: none;    
+}
+.footer-url .link-footer form button{
+    border: none;
+    background: #00D363;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.footer-url p.marg{
+    margin-top: 40px;
+}
+
+/* end footer url */
+
+
+/* start footer  */
+
+footer{
+    background-color: #2E054B;
+    padding: 30px 0; 
+}
+
+footer hr{
+    background-color: #5F3D73;
+    height: 1px;
+    margin: 0;
+}
+
+footer p{
+    color: #BABABA;
+    line-height: 3;
+    font-size: 20px;
+}
+
+footer p span{
+    color: #00D363;
+    font-weight: bold;
+}
+
+
+/* end footer  */
